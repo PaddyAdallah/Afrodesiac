@@ -1,0 +1,250 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}The Afrodesiac{% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{% static favicon.ico %}" type="image/x-icon">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}"/>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+    {#    Jquery should come before bootstrap.....made that change #}
+</head>
+<body class="container-fluid text-center">
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<section>
+		<div>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+  				<div class="container-fluid" style="background-color:rgb(139,0,139);">
+    				<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:rgb(139,0,139);">
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+   				 </div>
+    				<div class="collapse navbar-collapse" id="myNavbar" style="background-color:rgb(139,0,139);">
+      				<ul class="nav navbar-nav" style="background-color:rgb(139,0,139);">
+        				<li class="active"><a href="#">HOME</a></li>
+        				<li><a href="{% url 'TheAfrodesiac:about' %}">ABOUT</a></li>
+        				<li><a href="{% url 'TheAfrodesiac:fashion' %}">FASHION</a></li>
+        				<li><a href="{% url 'TheAfrodesiac:art' %}">ART</a></li>
+        				<li><a href="{% url 'TheAfrodesiac:poetry' %}">POETRY</a></li>
+        				<li><a href="{% url 'TheAfrodesiac:contact' %}">CONTACT</a></li>
+      				</ul>
+    				</div>
+  				</div>
+			</nav>
+		</div><!-- end of nav div -->
+		<div style="margin-top:50px;">
+			<div id="title"></div>
+			<div>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  					<!-- Indicators -->
+ 					 <ol class="carousel-indicators">
+    					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    					<li data-target="#myCarousel" data-slide-to="1"></li>
+    					<li data-target="#myCarousel" data-slide-to="2"></li>
+    					<li data-target="#myCarousel" data-slide-to="3"></li>
+  					</ol>
+
+  					<!-- Wrapper for slides -->
+  					<div class="carousel-inner" role="listbox">
+                        <div class="item active">
+      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<div class="carousel-caption">
+       					 <h2>{{ fashion_item.Fashion_Title }}</h2>
+      					</div>
+    					</div>
+                        <div class="item">
+      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<div class="carousel-caption">
+       					 <h2>{{ fashion_item.Fashion_Title }}</h2>
+      					</div>
+    					</div>
+                        <div class="item">
+      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<div class="carousel-caption">
+       					 <h2>{{ fashion_item.Fashion_Title }}</h2>
+      					</div>
+    					</div>
+                        <div class="item">
+      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<div class="carousel-caption">
+       					 <h2>{{ fashion_item.Fashion_Title }}</h2>
+      					</div>
+    					</div>
+  					</div>
+
+  					<!-- Left and right controls -->
+  					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    					<span class="sr-only">Previous</span>
+ 					 </a>
+  					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    					<span class="sr-only">Next</span>
+  					</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			<div class='row'>
+                 {% for fashion_item in fashion_items %}
+				<div class="col-md-4" id="categories"><a href="#">
+					<img src="{{ fashion_item.Fashion_Photo.url }}">
+					<div id="desc"><p> MY FASHION</p></div>
+				</a></div>
+                {% endfor %}
+                <div class="col-md-4" id="categories"><a href="#">
+                    <img src="#">
+                    <div id="desc"><p>MY ARTWORK</p></div>
+                </a></div>
+                <div class="col-md-4" id="categories"><a href="#">
+                    <img src="#">
+                    <div id="desc"><p>MY POETRY</p></div>
+                </a></div>
+			</div>
+		</div><!-- end of div below nav -->
+	</section>
+	<div class="clearfix"></div>
+	<section class="row">
+		<section class="col-md-8">
+
+			<div class="blogPost">
+                {% for fashion_item in fashion_items %}
+				<div class="line"><h6 class="text-uppercase">Category Post</h6></div>
+				<h3 class="text-uppercase">{{ fashion_item.Fashion_Title }}</h3>
+				<span>{{ fashion_item.Date_Posted }}</span>
+				<a href="#"><img class="img-responsive" src="{{ fashion_item.Fashion_Photo.url }}"></a>
+				<div id="blogContent"><p class="text-justify">{{ fashion_item.Description }}</p></div>
+				<a href="#"><span id="more">READ MORE</span></a>
+				<span class="clearfix"></span>
+				<span id="comments">[]Comments</span>
+                {% endfor %}
+
+
+			</div>
+		</section>
+		<section class="col-md-4 right">
+			<div id="about">
+				<div class="line"><h3>ABOUT ME</h3></div>
+				<a href="#"><img src="#"></a>
+			</div><!-- end of about -->
+			<div class="clearfix"></div>
+			<div>
+				<div class="line" style="margin-bottom:20px;"><h3>FOLLOW ME ON ...</h3></div>
+				<ul id="socialthumbs">
+					<li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+				</ul>
+			</div>
+			<div id="fb" class="social">
+				<div class="line"><h3>FACEBOOK</h3></div>
+				<div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+			</div>
+			<div id="snap" class="social">
+				<div class="line"><h3>SNAPCHAT</h3></div>
+                <img src="{% static 'blog/images/snapchat.png' %}">
+                <a href="#"></a>
+			</div>
+			<div id="tumblr" class="social">
+				<div class="line"><h3>TUMBLR</h3></div>
+                <img src="#">
+                <a href="#"></a>
+			</div>
+			<div id="ig" class="social">
+				<div class="line"><h3>INSTAGRAM</h3></div>
+                <img src="#">
+                <a href="#"></a>
+			</div>
+			<div id="posts">
+				<div class="line"><h3>POPULAR POSTS</h3></div>
+                {% for poetry_item in poetry_items %}
+				<div class="row" style="border-bottom:1px rgb(139,0,139) solid;">
+					<div class="thumbnail col-xs-4 col-md-4"><img src="{{ poetry_item.Poem_Photo.url }}"></div>
+					<div class="col-xs-8 col-md-8 text-left">
+						<h4>Post Title</h4>
+						<p style="max-height:150px;">{{ poetry_item.Poem_Composition }}</p></div> <!-- max of 3 -->
+                    {% endfor %}
+				</div>
+			</div>
+			<div id="archive">
+				<button class="btn dropdown-toggle" type="button" id="archive" data-toggle="dropdown" style="float:left;">ARCHIVES
+					<span class="caret"></span></button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="archive">
+						<li role="presentation"><a href="#" role="menuitem">label</a></li>
+					</ul>
+			</div>
+        <div class="clearfix"></div>
+        <div>
+            <div><h3>Subscribe To My Newsletter</h3></div>
+            <form>
+                <div class="form-group">
+                    <label for="email" style="float: left; font-size: 30px; display: block;"><i class="glyphicon glyphicon-envelope"></i></label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <button id="submit" type="submit" class="btn">SUBSCRIBE</button>
+            </form>
+        </div>
+		</section>
+	</section>
+	<div class="clearfix"></div>
+	<section class="footer">
+		<div class="row">
+            <div>INTAGRAM</div>
+            <div class="clearfix"></div>
+            <div class="col-xs-3 ig">
+                <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:33.33333333333333% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BOMEtH5gkOV/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by BHUTSIRI (@bhutsirimuyundo)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-12-19T06:27:46+00:00">Dec 18, 2016 at 10:27pm PST</time></p></div></blockquote>
+            </div>
+            <div class="col-xs-3 ig">
+               <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:33.33333333333333% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BOMDbUWABwl/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by BHUTSIRI (@bhutsirimuyundo)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-12-19T06:16:36+00:00">Dec 18, 2016 at 10:16pm PST</time></p></div></blockquote>
+            </div>
+            <div class="col-xs-3 ig">
+                <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:33.33333333333333% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BOMB58-AOLt/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by BHUTSIRI (@bhutsirimuyundo)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-12-19T06:03:18+00:00">Dec 18, 2016 at 10:03pm PST</time></p></div></blockquote>
+            </div>
+            <div class="col-xs-3 ig">
+                <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BIh48CbghJo/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by BHUTSIRI (@bhutsirimuyundo)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-31T14:39:52+00:00">Jul 31, 2016 at 7:39am PDT</time></p></div></blockquote>
+            </div>
+        </div>
+		<div id="footer">
+			<div class="col-xs-3"><i class="fa fa-tumblr"></i>	TUMBLR</div>
+			<div class="col-xs-3"><i class="fa fa-facebook"></i>	FACEBOOK</div>
+			<div class="col-xs-3"><i class="fa fa-instagram"></i>	INSAGRAM</div>
+			<div class="col-xs-3"><i class="fa fa-flickr"></i>	FLICKR</div>
+		</div>
+	</section>
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+</body>
+
+</html>

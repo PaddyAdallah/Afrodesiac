@@ -1,0 +1,1 @@
+web: gunicorn Afrodesiac.wsgi --log-file -

@@ -1,0 +1,156 @@
+.clearfix{
+	padding: 20px;
+	clear: both;;
+}
+.line{
+	border-bottom: rgb(139, 0, 139) 1px solid; 
+}
+.fa {
+	color: black;
+	font-size: 20px;
+}
+.navbar{
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+#title{
+	background: url("images/afro.jpg") no-repeat center top;
+	max-height: 300px;
+	min-height: 300px;
+	width: 100%;
+}
+h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;}
+/*##########       carousel      ###########*/
+#sliderimage{
+	max-height: 300px;
+	margin: auto;
+}
+.item h2, .item p {
+	color: rgb(139,0,139);
+	font-family: 'Satisfy', cursive;
+}
+.item p{font-size: 200%;}
+.item h2 {font-size: 400%;}
+
+#categories{
+	margin-bottom: 10px;
+}
+#categories img{
+	width: 80%;
+	height: 300px;
+	margin-left: 20px;
+}
+#desc{
+	color: white;
+	position: absolute;
+	top: 50%;
+	margin-left: 40%;
+	background-color: rgb(139,0,139);
+	font-family: 'Roboto', sans-serif;
+}
+
+/*##########       BLOG      ###########*/
+.blogPost{
+	margin-top: 20px;
+}
+.blogPost img{
+	width: 80%;
+	max-height: 500px;
+}
+#blogContent{
+	padding: 10px;
+	width: 80%;
+}
+#more{
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	font-family: 'Sansita', sans-serif; 
+}
+#comments{
+	font-family: 'Sansita', sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	float: left; 
+	border: black 1px solid;
+}
+/*##########       ABOUT      ###########*/
+#about img{
+	border-radius: 100px;
+	height: 200px;
+	width: 200px;
+}
+/*##########       SOCIAL      ###########*/
+#socialthumbs{list-style-type: none; }
+#socialthumbs li{
+	width: 20%;
+	display: inline-block;
+	color: black;
+}
+.social img {
+	margin-top: 10px;
+	height: 200px;
+	width: 200px;
+}
+/*##########       POPULAR POSTS      ###########*/
+.thumbnail{
+	width: 100px;
+	height: 100px;
+}
+/*##########       POPULAR POSTS      ###########*/
+.ftr{
+	top: 50px;
+	width: 20%;
+}
+
+/*################     ARCHIVE AND NEWSLETTER     ######################*/
+#archive button{
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+}
+#email{
+	width: 200px;
+}
+#submit{
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: 50px;
+	display: block;
+	clear: both;
+	margin: auto;
+}
+/*############# INSTAGRAM EMBEDS AT THE BOTTOM  ###########################*/
+.ig{
+	max-height: 300px;
+	overflow: hidden;
+}
+
+
+#fs-post img{
+	width: 100%;
+}
+
+form{
+	margin-top: 30px;
+}
+.form-element{
+	margin-top: 30px;
+}
+.form-control{
+	width:60%;
+	margin: auto;
+}
+#submit{
+	margin-top: 20px;
+	color:white;
+	background-color: black;
+}
+#ct #email{
+	width: 60%;
+}
