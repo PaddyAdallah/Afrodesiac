@@ -91,7 +91,7 @@
                 {% for poetry_item in poetry_items %}
 				<div style="font-weight: bold;"><h3>{{ poetry_item.Poem_Title }}</h3></div>
 				<div style="font-decoration:italics; font-weight: bold; font-style: italic;">{{ poetry_item.Date_Posted }}</div>
-				<div class="col-md-4"><img src="{{ poetry_item.Poem_Photo.url }}g"></div>
+				<div class="col-md-4"><img src="{{ poetry_item.Poem_Photo.url }}"></div>
 				<div class="col-md-8 text-center"><p>{{ poetry_item.Poem_Composition|linebreaksbr }}</p></div>
                      <div class="clearfix"></div>
                 {% endfor %}
