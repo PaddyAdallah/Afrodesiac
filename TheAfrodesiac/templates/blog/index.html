@@ -79,25 +79,25 @@
   					<!-- Wrapper for slides -->
   					<div class="carousel-inner" role="listbox">
                         <div class="item active">
-      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<img src="{% static 'blog/images/bday1.png' %}" alt="Chania" class="img-responsive" id="sliderimage">
       					<div class="carousel-caption">
        					 <h2>{{ fashion_item.Fashion_Title }}</h2>
       					</div>
     					</div>
                         <div class="item">
-      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<img src="{% static 'blog/images/bday2.png' %}" alt="Chania" class="img-responsive" id="sliderimage">
       					<div class="carousel-caption">
        					 <h2>{{ fashion_item.Fashion_Title }}</h2>
       					</div>
     					</div>
                         <div class="item">
-      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<img src="{% static 'blog/images/bday3.png' %}" alt="Chania" class="img-responsive" id="sliderimage">
       					<div class="carousel-caption">
        					 <h2>{{ fashion_item.Fashion_Title }}</h2>
       					</div>
     					</div>
                         <div class="item">
-      					<img src="{% static 'blog/images/afro.jpg' %}" alt="Chania" class="img-responsive" id="sliderimage">
+      					<img src="{% static 'blog/images/bday4.png' %}" alt="Chania" class="img-responsive" id="sliderimage">
       					<div class="carousel-caption">
        					 <h2>{{ fashion_item.Fashion_Title }}</h2>
       					</div>
@@ -117,19 +117,17 @@
 				</div>
 				<div class="clearfix"></div>
 			<div class='row'>
-                 {% for fashion_item in fashion_items %}
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="{{ fashion_item.Fashion_Photo.url }}">
-					<div id="desc"><p> MY FASHION</p></div>
-				</a></div>
-                {% endfor %}
-                <div class="col-md-4" id="categories"><a href="#">
-                    <img src="#">
+                <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:art' %}">
+                    <img src="{% static 'blog/images/home.jpg' %}" alt="image">
                     <div id="desc"><p>MY ARTWORK</p></div>
                 </a></div>
-                <div class="col-md-4" id="categories"><a href="#">
-                    <img src="#">
+                <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:poetry' %}">
+                    <img src="{% static 'blog/images/poetry.png' %}">
                     <div id="desc"><p>MY POETRY</p></div>
+                </a></div>
+                 <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:fashion' %}">
+                    <img src="{% static 'blog/images/fashion.png' %}">
+                    <div id="desc"><p>MY FASHION</p></div>
                 </a></div>
 			</div>
 		</div><!-- end of div below nav -->
@@ -139,12 +137,12 @@
 		<section class="col-md-8">
 
 			<div class="blogPost">
-                {% for fashion_item in fashion_items %}
+                {% for poetry_item in poetry_items %}
 				<div class="line"><h6 class="text-uppercase">Category Post</h6></div>
-				<h3 class="text-uppercase">{{ fashion_item.Fashion_Title }}</h3>
-				<span>{{ fashion_item.Date_Posted }}</span>
-				<a href="#"><img class="img-responsive" src="{{ fashion_item.Fashion_Photo.url }}"></a>
-				<div id="blogContent"><p class="text-justify">{{ fashion_item.Description }}</p></div>
+				<h3 class="text-uppercase">{{ poetry_item.Poem_Title }}</h3>
+				<span>{{ poetry_item.Date_Posted }}</span>
+				<a href="#"><img class="img-responsive" src="{{ poetry_item.Poem_Photo.url }}"></a>
+				<div id="blogContent"><p class="text-justify">{{ poetry_item.Poem_Composition }}</p></div>
 				<a href="#"><span id="more">READ MORE</span></a>
 				<span class="clearfix"></span>
 				<span id="comments">[]Comments</span>
@@ -156,7 +154,8 @@
 		<section class="col-md-4 right">
 			<div id="about">
 				<div class="line"><h3>ABOUT ME</h3></div>
-				<a href="#"><img src="#"></a>
+				<a href="#"><img src="{% static 'blog/images/about.png' %}"></a>
+                <p>Hello loves! <br> My name is Bhutsiri Muyundo <br> I'm a 19 year old feminist. <br> Kenyan... <br> I'm pro-black and pro the advancement and <br> empowerment of black women all over the world. <br> Welcome to my art, poetry and a tad of fashion blog. <br> Share! Share! Share!</p>
 			</div><!-- end of about -->
 			<div class="clearfix"></div>
 			<div>
@@ -179,12 +178,12 @@
 			</div>
 			<div id="tumblr" class="social">
 				<div class="line"><h3>TUMBLR</h3></div>
-                <img src="#">
+                <img src="{% static 'blog/images/tunblr.png' %}">
                 <a href="#"></a>
 			</div>
 			<div id="ig" class="social">
 				<div class="line"><h3>INSTAGRAM</h3></div>
-                <img src="#">
+                <img src="{% static 'blog/images/instagram.png' %}">
                 <a href="#"></a>
 			</div>
 			<div id="posts">

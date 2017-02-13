@@ -68,18 +68,18 @@
 
 				<div class="clearfix"></div>
 			<div class='row'>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="{% static 'blog/images/home.jpg' %}">
-					<div id="desc"><p> MY FASHION</p></div>
-				</a></div>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="{% static 'blog/images/home.jpg' %}">
-					<div id="desc"><p>MY ARTWORK</p></div>
-				</a></div>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="{% static 'blog/images/home.jpg' %}">
-					<div id="desc"><p>MY POETRY</p></div>
-				</a></div>
+				<div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:art' %}">
+                    <img src="{% static 'blog/images/home.jpg' %}" alt="image">
+                    <div id="desc"><p>MY ARTWORK</p></div>
+                </a></div>
+                <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:poetry' %}">
+                    <img src="{% static 'blog/images/poetry.png' %}">
+                    <div id="desc"><p>MY POETRY</p></div>
+                </a></div>
+                 <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:fashion' %}">
+                    <img src="{% static 'blog/images/fashion.png' %}">
+                    <div id="desc"><p>MY FASHION</p></div>
+                </a></div>
 			</div>
 		</div><!-- end of div below nav -->
 	</section>
@@ -100,7 +100,8 @@
 		<section class="col-md-4 right">
 			<div id="about">
 				<div class="line"><h3>ABOUT ME</h3></div>
-				<a href="#"><img src="{% static 'blog/images/Pauline_Muyundo_20161203_174510.jpg' %}"></a>
+				<a href="#"><img src="{% static 'blog/images/about.png' %}"></a>
+                <p>Hello loves! <br> My name is Bhutsiri Muyundo <br> I'm a 19 year old feminist. <br> Kenyan... <br> I'm pro-black and pro the advancement and <br> empowerment of black women all over the world. <br> Welcome to my art, poetry and a tad of fashion blog. <br> Share! Share! Share!</p>
 			</div><!-- end of about -->
 			<div class="clearfix"></div>
 			<div>
@@ -118,12 +119,18 @@
 			</div>
 			<div id="snap" class="social">
 				<div class="line"><h3>SNAPCHAT</h3></div>
+                <img src="{% static 'blog/images/snapchat.png' %}">
+                <a href="#"></a>
 			</div>
 			<div id="tumblr" class="social">
 				<div class="line"><h3>TUMBLR</h3></div>
+                <img src="{% static 'blog/images/tunblr.png' %}">
+                <a href="#"></a>
 			</div>
 			<div id="ig" class="social">
 				<div class="line"><h3>INSTAGRAM</h3></div>
+                <img src="{% static 'blog/images/instagram.png' %}">
+                <a href="#"></a>
 			</div>
 			<div id="posts">
 				<div class="line"><h3>POPULAR POSTS</h3></div>

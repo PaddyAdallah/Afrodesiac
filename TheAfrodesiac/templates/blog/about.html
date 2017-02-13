@@ -68,18 +68,18 @@
 			
 				<div class="clearfix"></div>
 			<div class='row'>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="images/bm4.jpg">
-					<div id="desc"><p> MY FASHION</p></div>
-				</a></div>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="images/bm8.jpg">
-					<div id="desc"><p>MY ARTWORK</p></div>
-				</a></div>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="images/bm10.png">
-					<div id="desc"><p>MY POETRY</p></div>
-				</a></div>
+				 <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:art' %}">
+                    <img src="{% static 'blog/images/home.jpg' %}" alt="image">
+                    <div id="desc"><p>MY ARTWORK</p></div>
+                </a></div>
+                <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:poetry' %}">
+                    <img src="{% static 'blog/images/poetry.png' %}">
+                    <div id="desc"><p>MY POETRY</p></div>
+                </a></div>
+                 <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:fashion' %}">
+                    <img src="{% static 'blog/images/fashion.png' %}">
+                    <div id="desc"><p>MY FASHION</p></div>
+                </a></div>
 			</div>
 		</div><!-- end of div below nav -->
 	</section>
@@ -88,14 +88,14 @@
 		<section class="col-md-8" style="border-bottom:rgb(139,0,139) 0.5px solid;">
 			<div><h3>ABOUT ME</h3></div>
 			<div id="abt-about">
-				<div><img src="{% static 'blog/images/Pauline_Muyundo_20161203_174510.jpg' %}"></div>
-				<div class="text-left"><p>Ut ac arcu et nibh ultrices placerat. Nulla nec fringilla nisl. Mauris accumsan, purus vitae pharetra iaculis, lorem ipsum dictum dui, sit amet pellentesque urna nisl eget sapien. Duis laoreet tempor imperdiet. Donec magna felis, suscipit ut orci ut, rhoncus tincidunt leo. Morbi elit mauris, mollis at mollis sed, dignissim a purus.</p></div>
+				<div><img src="{% static 'blog/images/about.png' %}"></div>
+				<div class="text-center"><p>Hello loves! <br> My name is Bhutsiri Muyundo <br> I'm a 19 year old feminist. <br> Kenyan... <br> I'm pro-black and pro the advancement and <br> empowerment of black women all over the world. <br> Welcome to my art, poetry and a tad of fashion blog. <br> Share! Share! Share!</p></div>
 			</div>
 		</section>
 		<section class="col-md-4 right">
 			<div id="about">
 				<div class="line"><h3>ABOUT ME</h3></div>
-				<a href="#"><img src="{% static 'blog/images/Pauline_Muyundo_20161203_174510.jpg' %}"></a>
+				<a href="#"><img src="{% static 'blog/images/about.png' %}"></a>
 			</div><!-- end of about -->
 			<div class="clearfix"></div>
 			<div>
@@ -113,23 +113,15 @@
 			</div>
 			<div id="snap" class="social">
 				<div class="line"><h3>SNAPCHAT</h3></div>
+                <img src="{% static 'blog/images/snapchat.png' %}">
 			</div>
 			<div id="tumblr" class="social">
 				<div class="line"><h3>TUMBLR</h3></div>
+                <img src="{% static 'blog/images/tunblr.png' %}">
 			</div>
 			<div id="ig" class="social">
 				<div class="line"><h3>INSTAGRAM</h3></div>
-			</div>
-			<div id="posts">
-				<div class="line"><h3>POPULAR POSTS</h3></div>
-                {% for poetry_item in poetry_items %}
-				<div class="row" style="border-bottom:1px rgb(139,0,139) solid;">
-					<div class="thumbnail col-xs-4 col-md-4"><img src="{{ poetry_item.Poem_Photo.url }}"></div>
-					<div class="col-xs-8 col-md-8 text-left">
-						<h4>{{ poetry_item.Poem_Title}}</h4>
-						<p style="max-height:150px;">{{ poetry_item.Poem_Composition|linebreaksbr }}</p></div> <!-- max of 3 -->
-                    {% endfor %}
-				</div>
+                <img src="{% static 'blog/images/instagram.png' %}">
 			</div>
 			<div id="archive">
 				<button class="btn dropdown-toggle" type="button" id="archive" data-toggle="dropdown" style="float:left;">ARCHIVES

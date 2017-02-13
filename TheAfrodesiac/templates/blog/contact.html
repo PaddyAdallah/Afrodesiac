@@ -68,18 +68,18 @@
 
 				<div class="clearfix"></div>
 			<div class='row'>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="{% static 'blog/images/Pauline_Muyundo_20161203_174510.jpg' %}">
-					<div id="desc"><p> MY FASHION</p></div>
-				</a></div>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="{% static 'blog/images/Pauline_Muyundo_20161203_174510.jpg' %}">
-					<div id="desc"><p>MY ARTWORK</p></div>
-				</a></div>
-				<div class="col-md-4" id="categories"><a href="#">
-					<img src="{% static 'blog/images/Pauline_Muyundo_20161203_174510.jpg' %}">
-					<div id="desc"><p>MY POETRY</p></div>
-				</a></div>
+				 <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:art' %}">
+                    <img src="{% static 'blog/images/home.jpg' %}" alt="image">
+                    <div id="desc"><p>MY ARTWORK</p></div>
+                </a></div>
+                <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:poetry' %}">
+                    <img src="{% static 'blog/images/poetry.png' %}">
+                    <div id="desc"><p>MY POETRY</p></div>
+                </a></div>
+                 <div class="col-md-4" id="categories"><a href="{% url 'TheAfrodesiac:fashion' %}">
+                    <img src="{% static 'blog/images/fashion.png' %}">
+                    <div id="desc"><p>MY FASHION</p></div>
+                </a></div>
 			</div>
 		</div><!-- end of div below nav -->
 	</section>
@@ -106,7 +106,8 @@
 		<section class="col-md-4 right">
 			<div id="about">
 				<div class="line"><h3>ABOUT ME</h3></div>
-				<a href="#"><img src="{% static 'blog/images/Pauline_Muyundo_20161203_174510.jpg' %}"></a>
+				<a href="#"><img src="{% static 'blog/images/about.png' %}"></a>
+                <p>Hello loves! <br> My name is Bhutsiri Muyundo <br> I'm a 19 year old feminist. <br> Kenyan... <br> I'm pro-black and pro the advancement and <br> empowerment of black women all over the world. <br> Welcome to my art, poetry and a tad of fashion blog. <br> Share! Share! Share!</p>
 			</div><!-- end of about -->
 			<div class="clearfix"></div>
 			<div>
@@ -124,31 +125,19 @@
 			</div>
 			<div id="snap" class="social">
 				<div class="line"><h3>SNAPCHAT</h3></div>
+                <img src="{% static 'blog/images/snapchat.png' %}">
+                <a href="#"></a>
 			</div>
 			<div id="tumblr" class="social">
 				<div class="line"><h3>TUMBLR</h3></div>
+                <img src="{% static 'blog/images/tunblr.png' %}">
+                <a href="#"></a>
 			</div>
 			<div id="ig" class="social">
 				<div class="line"><h3>INSTAGRAM</h3></div>
-			</div>
-			<div id="posts">
-				<div class="line"><h3>POPULAR POSTS</h3></div>
-				<div class="row" style="border-bottom:1px rgb(139,0,139) solid;">
-                    {% for poetry_item in poetry_items %}
-					<div class="thumbnail col-xs-4 col-md-4"><img src="{{ poetry_item.Poem_Photo.url }}"></div>
-					<div class="col-xs-8 col-md-8 text-left">
-						<h4>{{ poetry_item.Poem_Title }}</h4>
-						<p style="max-height:150px;"></p>{{ poetry_item.Poem_Composition|linebreaksbr }}</div> <!-- max of 3 -->
-                    {% endfor %}
-				</div>
-			</div>
-			<div id="archive">
-				<button class="btn dropdown-toggle" type="button" id="archive" data-toggle="dropdown" style="float:left;">ARCHIVES
-					<span class="caret"></span></button>
-					<ul class="dropdown-menu" role="menu" aria-labelledby="archive">
-						<li role="presentation"><a href="#" role="menuitem">label</a></li>
-					</ul>
-			</div>
+                <img src="{% static 'blog/images/instagram.png' %}">
+                <a href="#"></a>
+                </div>
         <div class="clearfix"></div>
         <div>
             <div><h3>Subscribe To My Newsletter</h3></div>
@@ -165,7 +154,7 @@
 	<div class="clearfix"></div>
 	<section class="footer">
 		<div class="row">
-            <div>INTAGRAM</div>
+            <div>ISNTAGRAM</div>
             <div class="clearfix"></div>
             <div class="col-xs-3 ig">
                 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:33.33333333333333% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BOMEtH5gkOV/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by BHUTSIRI (@bhutsirimuyundo)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-12-19T06:27:46+00:00">Dec 18, 2016 at 10:27pm PST</time></p></div></blockquote>
