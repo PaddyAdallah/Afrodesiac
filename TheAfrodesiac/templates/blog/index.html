@@ -139,16 +139,10 @@
 			<div class="blogPost">
                 {% for poetry_item in poetry_items %}
 				<div class="line"><h6 class="text-uppercase">Category Post</h6></div>
-				<h3 class="text-uppercase">{{ poetry_item.Poem_Title }}</h3>
 				<span>{{ poetry_item.Date_Posted }}</span>
 				<a href="#"><img class="img-responsive" src="{{ poetry_item.Poem_Photo.url }}"></a>
-				<div id="blogContent"><p class="text-justify">{{ poetry_item.Poem_Composition |linebreaks }}</p></div>
-				<a href="#"><span id="more">READ MORE</span></a>
 				<span class="clearfix"></span>
-				<span id="comments">[]Comments</span>
                 {% endfor %}
-
-
 			</div>
 		</section>
 		<section class="col-md-4 right">
