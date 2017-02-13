@@ -20,6 +20,11 @@
 	min-height: 300px;
 	width: 100%;
 }
+@media screen and (max-width: 320px) {
+	#title{
+		max-width: 320px;
+	}
+}
 h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;}
 /*##########       carousel      ###########*/
 #sliderimage{
@@ -94,6 +99,9 @@ h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;}
 	width: 200px;
 }
 /*##########       POPULAR POSTS      ###########*/
+#posts, #posts div{
+	display: block;
+}
 .thumbnail{
 	width: 100px;
 	height: 100px;
