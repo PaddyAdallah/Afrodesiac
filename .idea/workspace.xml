@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d0632bf7-df43-4954-b829-565c1943d86c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +26,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="121" column="47" lean-forward="false" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
+            <state relative-caret-position="328">
+              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -33,8 +39,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="57" column="74" lean-forward="false" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
+            <state relative-caret-position="280">
+              <caret line="54" column="68" lean-forward="false" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -43,8 +49,8 @@
       <file leaf-file-name="art.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="57" column="89" lean-forward="false" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+            <state relative-caret-position="146">
+              <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -53,8 +59,8 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="72" column="47" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+            <state relative-caret-position="332">
+              <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -63,18 +69,18 @@
       <file leaf-file-name="fashion.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+            <state relative-caret-position="345">
+              <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poetry.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="poetry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+            <state relative-caret-position="132">
+              <caret line="54" column="78" lean-forward="false" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -573,7 +579,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15938303" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -918,6 +924,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/static/blog/images/home.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TheAfrodesiac/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -926,65 +947,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/views.py">
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/static/blog/images/home.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="121" column="47" lean-forward="false" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="57" column="74" lean-forward="false" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="57" column="89" lean-forward="false" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="72" column="47" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+        <state relative-caret-position="132">
+          <caret line="54" column="78" lean-forward="false" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+        <state relative-caret-position="345">
+          <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html">
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+        <state relative-caret-position="332">
+          <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="54" column="82" lean-forward="false" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="54" column="68" lean-forward="false" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="67" />
           <folding />
         </state>
       </provider>
