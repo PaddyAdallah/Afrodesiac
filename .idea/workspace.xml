@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0632bf7-df43-4954-b829-565c1943d86c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/bday1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/bday2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/bday3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/bday4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/fashion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/poetry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/third.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/tunblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/go.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/pau.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/pauline.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TheAfrodesiac/static/blog/images/pddy.psd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Afrodesiac.iml" afterPath="$PROJECT_DIR$/.idea/Afrodesiac.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,62 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="71" column="61" lean-forward="false" selection-start-line="71" selection-start-column="61" selection-end-line="71" selection-end-column="61" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fashion.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="71" column="61" lean-forward="false" selection-start-line="71" selection-start-column="61" selection-end-line="71" selection-end-column="61" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="art.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="103" column="299" lean-forward="false" selection-start-line="103" selection-start-column="299" selection-end-line="103" selection-end-column="299" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="130" column="26" lean-forward="true" selection-start-line="119" selection-start-column="15" selection-end-line="130" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -218,10 +140,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -242,32 +160,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Afrodesiac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Afrodesiac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheAfrodesiac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,7 +484,7 @@
     <frame x="793" y="0" width="814" height="897" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30628273" sideWeight="0.21750663" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -601,7 +493,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23243934" sideWeight="0.49485862" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30628273" sideWeight="0.78249335" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30628273" sideWeight="0.78249335" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -957,6 +849,40 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="168" column="20" lean-forward="false" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="130" column="26" lean-forward="true" selection-start-line="119" selection-start-column="15" selection-end-line="130" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="103" column="299" lean-forward="false" selection-start-line="103" selection-start-column="299" selection-end-line="103" selection-end-column="299" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/fashion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -974,40 +900,6 @@
           <folding>
             <element signature="n#style#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/art.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="103" column="299" lean-forward="false" selection-start-line="103" selection-start-column="299" selection-end-line="103" selection-end-column="299" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/poetry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="168" column="20" lean-forward="false" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="130" column="26" lean-forward="true" selection-start-line="119" selection-start-column="15" selection-end-line="130" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
