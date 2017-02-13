@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0632bf7-df43-4954-b829-565c1943d86c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html" afterPath="$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="144" column="107" lean-forward="false" selection-start-line="144" selection-start-column="107" selection-end-line="144" selection-end-column="107" />
+              <caret line="144" column="61" lean-forward="false" selection-start-line="144" selection-start-column="61" selection-end-line="144" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -498,7 +497,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15938303" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -915,7 +914,7 @@
     <entry file="file://$PROJECT_DIR$/TheAfrodesiac/templates/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="144" column="107" lean-forward="false" selection-start-line="144" selection-start-column="107" selection-end-line="144" selection-end-column="107" />
+          <caret line="144" column="61" lean-forward="false" selection-start-line="144" selection-start-column="61" selection-end-line="144" selection-end-column="61" />
           <folding />
         </state>
       </provider>
