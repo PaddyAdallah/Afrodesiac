@@ -88,13 +88,26 @@
 		<section class="col-md-8">
 			<div><h2>FASHION</h2></div>
 			<div id="fs-post" class="row" style="border-bottom:rgb(139,0,139) 1px solid; padding-bottom:10px;">
-                {% for fashion_item in fashion_items %}
-				<div style="font-weight: bold;"><h3>{{ fashion_item.Fashion_Title }}</h3></div>
-				<div style="font-decoration:italics; font-weight: bold; font-style: italic;">{{ fashion_item.Date_Posted }}</div>
-				<div class="col-md-4"><img src="{{ fashion_item.Fashion_Photo.url }}"></div>
-				<div class="col-md-8 text-left"><p>{{ fashion_item.Description|linebreaksbr }}.</p></div>
+				<div style="font-weight: bold;"><h3>My birthday dinner</h3></div>
+				<div style="font-decoration:italics; font-weight: bold; font-style: italic;">13th Feb </div>
+				<div class="col-md-4"><img src="{% static 'blog/images/bday1.png' %}"></div>
                     <div class="clearfix"></div>
-                {% endfor %}
+                <div style="font-weight: bold;"><h3>My birthday dinner</h3></div>
+				<div style="font-decoration:italics; font-weight: bold; font-style: italic;">13th Feb </div>
+				<div class="col-md-4"><img src="{% static 'blog/images/bday2.png' %}"></div>
+                    <div class="clearfix"></div>
+                <div style="font-weight: bold;"><h3>My birthday dinner</h3></div>
+				<div style="font-decoration:italics; font-weight: bold; font-style: italic;">13th Feb </div>
+				<div class="col-md-4"><img src="{% static 'blog/images/bday3.png' %}"></div>
+                    <div class="clearfix"></div>
+                <div style="font-weight: bold;"><h3>My birthday dinner</h3></div>
+				<div style="font-decoration:italics; font-weight: bold; font-style: italic;">13th Feb </div>
+				<div class="col-md-4"><img src="{% static 'blog/images/bday4.png' %}"></div>
+                    <div class="clearfix"></div>
+                <div style="font-weight: bold;"><h3>My birthday dinner</h3></div>
+				<div style="font-decoration:italics; font-weight: bold; font-style: italic;">13th Feb </div>
+				<div class="col-md-4"><img src="{% static 'blog/images/fashion.png' %}"></div>
+                    <div class="clearfix"></div>
 			</div>
 		</section>
 		<section class="col-md-4 right">
@@ -135,12 +148,12 @@
 			<div id="posts">
 				<div class="line"><h3>POPULAR POSTS</h3></div>
 				<div class="row" style="border-bottom:1px rgb(139,0,139) solid;">
-                    {% for fashion_item in fashion_items %}
-					<div class="thumbnail col-xs-4 col-md-4"><img src="{{ fashion_item.Fashion_Photo.url }}"></div>
+					<div class="thumbnail col-xs-4 col-md-4"><img src="{% static 'blog/images/bday1.png' %}"></div>
 					<div class="col-xs-8 col-md-8 text-left">
-						<h4>{{ fashion_item.Fashion_Title }}</h4>
-						<p style="max-height:150px;"></p>{{ fashion_item.Description|linebreaksbr }}</div> <!-- max of 3 -->
-                    {% endfor %}
+						<h4>My birthday dinner</h4>
+						</div>
+                    <div class="thumbnail col-xs-4 col-md-4"><img src="{% static 'blog/images/bday2.png' %}"></div>
+						</div><!-- max of 3 -->
 				</div>
 			</div>
 			<div id="archive">

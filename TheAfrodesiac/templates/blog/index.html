@@ -137,12 +137,10 @@
 		<section class="col-md-8">
 
 			<div class="blogPost">
-                {% for poetry_item in poetry_items %}
 				<div class="line"><h6 class="text-uppercase">Category Post</h6></div>
-				<span>{{ poetry_item.Date_Posted }}</span>
-				<a href="#"><img class="img-responsive" src="{{ poetry_item.Poem_Photo.url }}"></a>
+				<span>13th Feb 2017</span>
+				<a href="#"><img class="img-responsive" src="{% static 'blog/images/bday2.png' %}"></a>
 				<span class="clearfix"></span>
-                {% endfor %}
 			</div>
 		</section>
 		<section class="col-md-4 right">
