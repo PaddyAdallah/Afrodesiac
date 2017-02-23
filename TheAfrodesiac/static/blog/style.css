@@ -16,15 +16,14 @@
 }
 #title{
 	background: url("images/afro.jpg") no-repeat center top;
-	max-height: 300px;
-	min-height: 300px;
+	min-height: 200px;
 	width: 100%;
 }
 @media screen and (min-width:250px) and (max-width: 500px) {
 	#title{
 		background: url("images/afro.png") no-repeat center top;
 		max-height: 300px;
-		min-height: 300px;
+		min-height: 100px;
 		width: 100%;
 	}
 }
