@@ -21,9 +21,9 @@
 }
 @media screen and (min-width:250px) and (max-width: 500px) {
 	#title{
-		background: url("images/afro.png") no-repeat center top;
+		background: url("images/afrodesiac-small.jpg") no-repeat center top;
 		max-height: 300px;
-		min-height: 100px;
+		min-height: 129px;
 		width: 100%;
 	}
 }
