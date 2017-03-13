@@ -126,17 +126,6 @@
 				<div class="line"><h3>INSTAGRAM</h3></div>
                 <img src="{% static 'blog/images/instagram.png' %}">
 			</div>
-                        <div id="posts">
-				<div class="line"><h3>POPULAR POSTS</h3></div>
-				<div class="row" style="border-bottom:1px rgb(139,0,139) solid;">
-                    {% for poetry_item in poetry_items %}
-					<div class="thumbnail col-xs-4 col-md-4"><img src="{{ poetry_item.Poem_Photo.url }}"></div>
-					<div class="col-xs-8 col-md-8 text-left">
-						<h4>{{ poetry_item.Poem_Title }}</h4>
-						<p style="max-height:150px;"></p>{{ poetry_item.Poem_Composition|linebreaksbr }}</div> <!-- max of 3 -->
-                    {% endfor %}
-				</div>
-			</div>
 
 			<div id="archive">
 				<button class="btn dropdown-toggle" type="button" id="archive" data-toggle="dropdown" style="float:left;">ARCHIVES
